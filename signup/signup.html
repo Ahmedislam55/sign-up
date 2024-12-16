@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Login System</title>
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="container d-flex justify-content-center">
+        <div class="card">
+            <div class="card-header">
+                <h3>Smart Login System</h3>
+            </div>
+            <div class="card-body">
+                <input type="text" oninput="validationName()" id="inputName" class="form-control" placeholder="Enter Your Name">
+                <input type="email" oninput="validationEmail()" id="inputEmail" class="form-control" placeholder="Enter Your Email">
+                <input type="password" oninput="validationPassword()" id="inputPassword" class="form-control" placeholder="Enter Your Password">
+                <button class="btn btn-primary w-100" id="btnSignup">Sign Up</button>
+            </div>
+            <div class="card-footer">
+                <p>Do you have an account? <a href="../login/login.html">Signin</a></p>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
